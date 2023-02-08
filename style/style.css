@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 5px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.cardBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: grey;
+    align-items:center;
+    position: relative;
+    padding: 50px
+}
+
+.cardPhoto{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.cardDelete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
